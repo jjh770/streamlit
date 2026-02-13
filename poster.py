@@ -212,7 +212,7 @@ with st.sidebar:
     ai_provider = st.radio(
         "사용할 AI 모델",
         ["Google (Gemini)", "OpenAI (DALL-E 3)"],
-        captions=["유료/빠름 (암호 필요)", "무료/안정적"]
+        captions=["유료/빠름 (암호 필요)", "유료/안정적"]
     )
 
     is_authorized = False
